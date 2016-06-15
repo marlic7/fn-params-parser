@@ -1,0 +1,19 @@
+{
+  "name": "fn-params-parser",
+  "version": "1.0.0",
+  "description": "Function arguments parse and verify compiliance with specification",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlic7/fn-params-parser.git"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "should": "^9.0.1"
+  }
+}
