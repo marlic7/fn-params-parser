@@ -1,10 +1,20 @@
 {
   "name": "fn-params-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function arguments parse and verify compiliance with specification",
+  "keywords": [
+    "arguments",
+    "type check",
+    "function parameters",
+    "args",
+    "args parser"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec test/*.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "repository": {
     "type": "git",
