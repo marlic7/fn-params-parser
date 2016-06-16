@@ -38,14 +38,14 @@ Now You can invoke function with two methods:
 Examples of function invocation:
 
 ```js
-    myCoolFunction('abc', [1,2,3], function() {});
-    // output: abc [ 1, 2, 3 ] null function () {}
+myCoolFunction('abc', [1,2,3], function() {});
+// output: abc [ 1, 2, 3 ] null function () {}
 
-    myCoolFunction({ p1: 'abc', p4: function() {} });
-    // output: abc [] null function () {}
+myCoolFunction({ p1: 'abc', p4: function() {} });
+// output: abc [] null function () {}
 
-    myCoolFunction('abc');
-    // output: Error: No proper p4 parameter data type. Expected type is: function!
+myCoolFunction('abc');
+// output: Error: No proper p4 parameter data type. Expected type is: function!
 ```
 
 ## Types
