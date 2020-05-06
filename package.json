@@ -11,7 +11,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test/*.js"
+    "test": "mocha -R spec test/*.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -21,9 +23,11 @@
     "url": "git+https://github.com/marlic7/fn-params-parser.git"
   },
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "should": "^9.0.1"
-  }
+  },
+  "snyk": true
 }
